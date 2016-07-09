@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B816581D310BE0003BCE6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B816571D310BE0003BCE6E /* AppDelegate.swift */; };
+		68B8165A1D310BE0003BCE6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B816591D310BE0003BCE6E /* ViewController.swift */; };
+		68B8165D1D310BE0003BCE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B8165B1D310BE0003BCE6E /* Main.storyboard */; };
+		68B8165F1D310BE0003BCE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B8165E1D310BE0003BCE6E /* Assets.xcassets */; };
+		68B816621D310BE0003BCE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B816601D310BE0003BCE6E /* LaunchScreen.storyboard */; };
+		68B816861D310D77003BCE6E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B816851D310D77003BCE6E /* WaveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B816691D310BE0003BCE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B8164C1D310BE0003BCE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B816531D310BE0003BCE6E;
+			remoteInfo = WaveAnimation;
+		};
+		68B816741D310BE0003BCE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B8164C1D310BE0003BCE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B816531D310BE0003BCE6E;
+			remoteInfo = WaveAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68B816541D310BE0003BCE6E /* WaveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B816571D310BE0003BCE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68B816591D310BE0003BCE6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B8165C1D310BE0003BCE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B8165E1D310BE0003BCE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B816611D310BE0003BCE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B816631D310BE0003BCE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B816681D310BE0003BCE6E /* WaveAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B816731D310BE0003BCE6E /* WaveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B816851D310D77003BCE6E /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B816511D310BE0003BCE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B816651D310BE0003BCE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B816701D310BE0003BCE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B8164B1D310BE0003BCE6E = {
+			isa = PBXGroup;
+			children = (
+				68B816561D310BE0003BCE6E /* WaveAnimation */,
+				68B816551D310BE0003BCE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B816551D310BE0003BCE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B816541D310BE0003BCE6E /* WaveAnimation.app */,
+				68B816681D310BE0003BCE6E /* WaveAnimationTests.xctest */,
+				68B816731D310BE0003BCE6E /* WaveAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B816561D310BE0003BCE6E /* WaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				68B816571D310BE0003BCE6E /* AppDelegate.swift */,
+				68B816591D310BE0003BCE6E /* ViewController.swift */,
+				68B816851D310D77003BCE6E /* WaveView.swift */,
+				68B8165B1D310BE0003BCE6E /* Main.storyboard */,
+				68B8165E1D310BE0003BCE6E /* Assets.xcassets */,
+				68B816601D310BE0003BCE6E /* LaunchScreen.storyboard */,
+				68B816631D310BE0003BCE6E /* Info.plist */,
+			);
+			path = WaveAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B816531D310BE0003BCE6E /* WaveAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B8167C1D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimation" */;
+			buildPhases = (
+				68B816501D310BE0003BCE6E /* Sources */,
+				68B816511D310BE0003BCE6E /* Frameworks */,
+				68B816521D310BE0003BCE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveAnimation;
+			productName = WaveAnimation;
+			productReference = 68B816541D310BE0003BCE6E /* WaveAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B816671D310BE0003BCE6E /* WaveAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B8167F1D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimationTests" */;
+			buildPhases = (
+				68B816641D310BE0003BCE6E /* Sources */,
+				68B816651D310BE0003BCE6E /* Frameworks */,
+				68B816661D310BE0003BCE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B8166A1D310BE0003BCE6E /* PBXTargetDependency */,
+			);
+			name = WaveAnimationTests;
+			productName = WaveAnimationTests;
+			productReference = 68B816681D310BE0003BCE6E /* WaveAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68B816721D310BE0003BCE6E /* WaveAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B816821D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimationUITests" */;
+			buildPhases = (
+				68B8166F1D310BE0003BCE6E /* Sources */,
+				68B816701D310BE0003BCE6E /* Frameworks */,
+				68B816711D310BE0003BCE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B816751D310BE0003BCE6E /* PBXTargetDependency */,
+			);
+			name = WaveAnimationUITests;
+			productName = WaveAnimationUITests;
+			productReference = 68B816731D310BE0003BCE6E /* WaveAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B8164C1D310BE0003BCE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LZQ;
+				TargetAttributes = {
+					68B816531D310BE0003BCE6E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					68B816671D310BE0003BCE6E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 68B816531D310BE0003BCE6E;
+					};
+					68B816721D310BE0003BCE6E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 68B816531D310BE0003BCE6E;
+					};
+				};
+			};
+			buildConfigurationList = 68B8164F1D310BE0003BCE6E /* Build configuration list for PBXProject "WaveAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B8164B1D310BE0003BCE6E;
+			productRefGroup = 68B816551D310BE0003BCE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B816531D310BE0003BCE6E /* WaveAnimation */,
+				68B816671D310BE0003BCE6E /* WaveAnimationTests */,
+				68B816721D310BE0003BCE6E /* WaveAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B816521D310BE0003BCE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B816621D310BE0003BCE6E /* LaunchScreen.storyboard in Resources */,
+				68B8165F1D310BE0003BCE6E /* Assets.xcassets in Resources */,
+				68B8165D1D310BE0003BCE6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B816661D310BE0003BCE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B816711D310BE0003BCE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B816501D310BE0003BCE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B8165A1D310BE0003BCE6E /* ViewController.swift in Sources */,
+				68B816861D310D77003BCE6E /* WaveView.swift in Sources */,
+				68B816581D310BE0003BCE6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B816641D310BE0003BCE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B8166F1D310BE0003BCE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B8166A1D310BE0003BCE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B816531D310BE0003BCE6E /* WaveAnimation */;
+			targetProxy = 68B816691D310BE0003BCE6E /* PBXContainerItemProxy */;
+		};
+		68B816751D310BE0003BCE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B816531D310BE0003BCE6E /* WaveAnimation */;
+			targetProxy = 68B816741D310BE0003BCE6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B8165B1D310BE0003BCE6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B8165C1D310BE0003BCE6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68B816601D310BE0003BCE6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B816611D310BE0003BCE6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B8167A1D310BE0003BCE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B8167B1D310BE0003BCE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B8167D1D310BE0003BCE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68B8167E1D310BE0003BCE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68B816801D310BE0003BCE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveAnimation.app/WaveAnimation";
+			};
+			name = Debug;
+		};
+		68B816811D310BE0003BCE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveAnimation.app/WaveAnimation";
+			};
+			name = Release;
+		};
+		68B816831D310BE0003BCE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveAnimation;
+			};
+			name = Debug;
+		};
+		68B816841D310BE0003BCE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iue.WaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B8164F1D310BE0003BCE6E /* Build configuration list for PBXProject "WaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B8167A1D310BE0003BCE6E /* Debug */,
+				68B8167B1D310BE0003BCE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B8167C1D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B8167D1D310BE0003BCE6E /* Debug */,
+				68B8167E1D310BE0003BCE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B8167F1D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B816801D310BE0003BCE6E /* Debug */,
+				68B816811D310BE0003BCE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B816821D310BE0003BCE6E /* Build configuration list for PBXNativeTarget "WaveAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B816831D310BE0003BCE6E /* Debug */,
+				68B816841D310BE0003BCE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B8164C1D310BE0003BCE6E /* Project object */;
+}

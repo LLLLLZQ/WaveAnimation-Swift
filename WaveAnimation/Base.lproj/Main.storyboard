@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aG5-35-3Ef">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NBp-XC-oaT">
+            <objects>
+                <viewController id="aG5-35-3Ef" customClass="ViewController" customModule="WaveAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEz-cS-Uef"/>
+                        <viewControllerLayoutGuide type="bottom" id="T8I-pj-ukU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q70-r7-rBR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vu7-kV-ldo" userLabel="height">
+                                <rect key="frame" x="108" y="35" width="474" height="31"/>
+                                <connections>
+                                    <action selector="heightValueChanged:" destination="aG5-35-3Ef" eventType="valueChanged" id="5FY-sd-7PP"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="f4d-wq-zha" userLabel="speed">
+                                <rect key="frame" x="108" y="76" width="474" height="31"/>
+                                <connections>
+                                    <action selector="speedValueChanged:" destination="aG5-35-3Ef" eventType="valueChanged" id="fSM-zQ-GYF"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pSO-dy-d30" userLabel="increase">
+                                <rect key="frame" x="108" y="117" width="474" height="31"/>
+                                <connections>
+                                    <action selector="increaseValueChanged:" destination="aG5-35-3Ef" eventType="valueChanged" id="6vL-a5-ubo"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tT3-AU-GaQ" userLabel="wavePeriod">
+                                <rect key="frame" x="108" y="159" width="474" height="31"/>
+                                <connections>
+                                    <action selector="wavePeriodValueChanged:" destination="aG5-35-3Ef" eventType="valueChanged" id="4U0-ea-MgP"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="波浪高度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4L-rJ-2zI">
+                                <rect key="frame" x="20" y="40" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="KZz-6a-ZXD"/>
+                                    <constraint firstAttribute="height" constant="21" id="loP-lR-TIS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="波浪速度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aM6-c0-QeA">
+                                <rect key="frame" x="20" y="81" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dq0-ux-Y3t"/>
+                                    <constraint firstAttribute="width" constant="70" id="q7E-Np-gdR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="波浪增幅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZz-3p-YJf">
+                                <rect key="frame" x="20" y="122" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GVu-FJ-oPH"/>
+                                    <constraint firstAttribute="width" constant="70" id="j25-M3-Ze1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="波浪周率" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUK-tK-dzo">
+                                <rect key="frame" x="20" y="163" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fVx-tO-x0s"/>
+                                    <constraint firstAttribute="width" constant="70" id="wzJ-OF-6zg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tT3-AU-GaQ" firstAttribute="leading" secondItem="UUK-tK-dzo" secondAttribute="trailing" constant="20" id="7X5-Oj-c1t"/>
+                            <constraint firstItem="TZz-3p-YJf" firstAttribute="leading" secondItem="Q70-r7-rBR" secondAttribute="leading" constant="20" id="8d9-pr-hqa"/>
+                            <constraint firstItem="aM6-c0-QeA" firstAttribute="top" secondItem="u4L-rJ-2zI" secondAttribute="bottom" constant="20" id="CLx-5B-RJf"/>
+                            <constraint firstItem="pSO-dy-d30" firstAttribute="centerY" secondItem="TZz-3p-YJf" secondAttribute="centerY" id="DOD-1o-fgl"/>
+                            <constraint firstItem="Vu7-kV-ldo" firstAttribute="leading" secondItem="u4L-rJ-2zI" secondAttribute="trailing" constant="20" id="EKC-0N-yN3"/>
+                            <constraint firstItem="UUK-tK-dzo" firstAttribute="leading" secondItem="Q70-r7-rBR" secondAttribute="leading" constant="20" id="FGW-rB-dfm"/>
+                            <constraint firstItem="aM6-c0-QeA" firstAttribute="leading" secondItem="Q70-r7-rBR" secondAttribute="leading" constant="20" id="QkE-Rb-7Rs"/>
+                            <constraint firstItem="tT3-AU-GaQ" firstAttribute="centerY" secondItem="UUK-tK-dzo" secondAttribute="centerY" id="V2h-La-vYj"/>
+                            <constraint firstAttribute="trailing" secondItem="f4d-wq-zha" secondAttribute="trailing" constant="20" id="aH7-bC-pbd"/>
+                            <constraint firstAttribute="trailing" secondItem="tT3-AU-GaQ" secondAttribute="trailing" constant="20" id="auN-ee-3Qg"/>
+                            <constraint firstItem="u4L-rJ-2zI" firstAttribute="leading" secondItem="Q70-r7-rBR" secondAttribute="leading" constant="20" id="cGM-hc-rJ6"/>
+                            <constraint firstAttribute="trailing" secondItem="Vu7-kV-ldo" secondAttribute="trailing" constant="20" id="dCt-sz-ffv"/>
+                            <constraint firstItem="pSO-dy-d30" firstAttribute="leading" secondItem="TZz-3p-YJf" secondAttribute="trailing" constant="20" id="ibe-zm-eAL"/>
+                            <constraint firstAttribute="trailing" secondItem="pSO-dy-d30" secondAttribute="trailing" constant="20" id="l1k-et-Zt4"/>
+                            <constraint firstItem="f4d-wq-zha" firstAttribute="leading" secondItem="aM6-c0-QeA" secondAttribute="trailing" constant="20" id="mPR-Ma-IJa"/>
+                            <constraint firstItem="u4L-rJ-2zI" firstAttribute="top" secondItem="uEz-cS-Uef" secondAttribute="bottom" constant="20" id="nuG-Ct-0xh"/>
+                            <constraint firstItem="UUK-tK-dzo" firstAttribute="top" secondItem="TZz-3p-YJf" secondAttribute="bottom" constant="20" id="rBD-WH-UhQ"/>
+                            <constraint firstItem="Vu7-kV-ldo" firstAttribute="centerY" secondItem="u4L-rJ-2zI" secondAttribute="centerY" id="wJY-Qa-M2T"/>
+                            <constraint firstItem="f4d-wq-zha" firstAttribute="centerY" secondItem="aM6-c0-QeA" secondAttribute="centerY" id="xhT-2y-snO"/>
+                            <constraint firstItem="TZz-3p-YJf" firstAttribute="top" secondItem="aM6-c0-QeA" secondAttribute="bottom" constant="20" id="xyq-c6-bXU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="waveHeightSlider" destination="Vu7-kV-ldo" id="v1F-HT-qHI"/>
+                        <outlet property="waveIncreaseSlider" destination="pSO-dy-d30" id="Swh-qs-Ms4"/>
+                        <outlet property="wavePeriodSlider" destination="tT3-AU-GaQ" id="beB-FR-PXY"/>
+                        <outlet property="waveSpeedSlider" destination="f4d-wq-zha" id="dLQ-CK-Riy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bbD-6Q-0ba" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
